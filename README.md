@@ -107,7 +107,7 @@ There is a folder [SQL](/SQL) which contains some sql commands to run for instal
 
 
 ## Release History
-see [RELEASE HISTORY.md](/RELEASE HISTORY.md)  
+see [RELEASE HISTORY.md](/RELEASE_HISTORY.md)  
  
 
 ## How it works. (A brief explanation)
