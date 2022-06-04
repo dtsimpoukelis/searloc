@@ -10,15 +10,15 @@ EXEC dbo.searloc_install
 
 # CLR procedures - functions (alphabetical order)
 
-* [PROCEDURE **searloc.create_index**](#PROCEDURE%20searloc.create_index)
-* [PROCEDURE **searloc.drop_all**](#PROCEDURE%20searloc.drop_all)
-* [PROCEDURE **searloc.drop_index**](#PROCEDURE%20searloc.drop_index)
-* [FUNCTION **searloc.get_mode**](#FUNCTION%20searloc.get_mode)
-* [FUNCTION **searloc.match**](#FUNCTION%20searloc.match)
-* [FUNCTION **searloc.match_selection**](#FUNCTION%20searloc.match_selection)
-* [PROCEDURE **searloc.register**](#PROCEDURE%20searloc.register)
-* [TABLE FUNCTION **searloc.search**](#TABLE%20FUNCTION-searloc.search)
-* [FUNCTION **searloc.suggest**](#FUNCTION%20searloc.suggest)
+* [PROCEDURE **searloc.create_index**](#PROCEDURE-searloc.create_index)
+* [PROCEDURE **searloc.drop_all**](#PROCEDURE-searloc.drop_all)
+* [PROCEDURE **searloc.drop_index**](#PROCEDURE-searloc.drop_index)
+* [FUNCTION **searloc.get_mode**](#FUNCTION-searloc.get_mode)
+* [FUNCTION **searloc.match**](#FUNCTION-searloc.match)
+* [FUNCTION **searloc.match_selection**](#FUNCTION-searloc.match_selection)
+* [PROCEDURE **searloc.register**](#PROCEDURE-searloc.register)
+* [TABLE FUNCTION **searloc.search**](#TABLE-FUNCTION-searloc.search)
+* [FUNCTION **searloc.suggest**](#FUNCTION-searloc.suggest)
 
 
 
