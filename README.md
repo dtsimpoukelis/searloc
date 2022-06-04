@@ -154,7 +154,7 @@ Library includes a very big dataset with all phonetic matchings, and keyboard ma
 **This library is free to use it anywhere. But it has the limitation mdf file of your database to be smaller than 5GB**.<br>
 
 For bigger database files you need to register your company name and a key for it.
-Please contact to email [dim1.tsimpoukelis@gmail.com](mailto:dim1.tsimpoukelis@gmail.com) if you want to obtain a key for your company, for a lifetime and for unlimited installations. 
+Please [contact me](mailto:dim1.tsimpoukelis@gmail.com) if you want to obtain a key for your company, for a lifetime and for unlimited installations. 
 
  
 
