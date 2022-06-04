@@ -48,7 +48,7 @@ Parameters:
     * **Action = NULL** -> if index already exists raise error.
     * **Action = 'rebuild'** -> if index already exists rebuild index (drop previous and create new one).
     * **Action = 'no action'** -> if index already exists do nothing.
-    * **Action = 'drop'** -> if index already exists drop index.
+    * **Action = 'drop'** -> if index already exists drop index (same as searloc.drop_index).
      
 e.g.
 `` EXEC searloc.create_index 'customers', 'Code, LastName, FirstName', 'City', NULL, 'rebuild' ``
