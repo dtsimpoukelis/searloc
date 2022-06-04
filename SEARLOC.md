@@ -10,7 +10,7 @@ EXEC dbo.searloc_install
 
 # CLR procedures - functions (alphabetical order)
 
-* [PROCEDURE **searloc.create_index**](#PROCEDURE-searloc.create_index)
+* [PROCEDURE **searloc.create_index**](#%20PROCEDURE%20searloc.create_index)
 * [PROCEDURE **searloc.drop_all**](#PROCEDURE-searloc.drop_all)
 * [PROCEDURE **searloc.drop_index**](#PROCEDURE-searloc.drop_index)
 * [FUNCTION **searloc.get_mode**](#FUNCTION-searloc.get_mode)
