@@ -205,7 +205,7 @@ Parameters:
     
 - **@Key NVARCHAR(MAX)** 
 
-    The key depending on companyName. To obtain this key, please sent me email [dim1.tsimpoukelis@gmail.com](mailto:dim1.tsimpoukelis@gmail.com)
+    The key depending on companyName. To obtain this key, please [contact me](mailto:dim1.tsimpoukelis@gmail.com)
     
 After executing this procedure you can check your mode with
 `` SELECT searloc.get_mode() ``
