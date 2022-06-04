@@ -93,15 +93,15 @@ There is a folder [SQL](/SQL) which contains some sql commands to run for instal
 	>Execute file [install.sql](/SQL/install.sql) to create the installation procedure 
 	and after run	`` EXEC dbo.searloc_install ``
 
-* Load and run file [1. create demo table.sql](/SQL/1.-create-demo-table.sql) 
+* Load and run file [1. create demo table.sql](/SQL/1.%20create%20demo%20table.sql) 
 
 	> This will create a demo table with all internation codes of diseases (ICD10). Its only for demo use.
 	
-* Load and run file [2. search with function.sql](/SQL/2.-search-with-function.sql)	
+* Load and run file [2. search with function.sql](/SQL/2.%20search%20with%20function.sql)	
 
 	> This will create an auxilary function and make some test searchings, scanning whole table. You will notice the speed of searching is fast enough, although the table contains about 10K records. 
 	
-* Load and run file [3. search with index.sql](/SQL/3.-search-with-index.sql)	
+* Load and run file [3. search with index.sql](/SQL/3.%20search%20with%20index.sql)	
 
 	> This will create a **searloc index** for this table, and make the same searchings as previous example. You will notice the speed will be very - very fast. If the table had millions of records speed will be also very good (just a few milliseconds in most cases)
 
