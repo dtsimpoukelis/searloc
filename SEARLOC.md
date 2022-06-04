@@ -192,7 +192,8 @@ Parameters:
     
 - **@SearchText NVARCHAR(MAX)** 
 
-    The text that you want to search. Can be one or more whole words or prefixes. e.g. 'John K' will search for all words started with 'John' and 'K'   
+    The text that you want to search. Can be one or more whole words or prefixes. e.g. 'John K' will search for all words started or matched with 'John' and 'K' 
+    
 - **@Limit INT** 
 
     is the number of top records that will return. If it is NULL or zero will return all records with matches, but this may cause big delay. A good practice is to set a number equal or below 10. 
