@@ -86,7 +86,7 @@ see [SEARLOC.md](/SEARLOC.md)
 ## Installation - Example 
 There is a folder [SQL](/SQL) which contains some sql commands to run for install, with demos and tests.
 * Create a new Database or use an existing. 
-	> If you choose to use an existing database, this must be less than 5GB, to avoid errors in LIMITATION MODE. See [license](#License)
+	> If you choose to use an existing database, this must be less than 5GB. See [license](#License)
 	
 * Install searloc. 
 
@@ -151,9 +151,9 @@ Library includes a very big dataset with all phonetic matchings, and keyboard ma
 
 
 
-**This library is free to use it anywhere. But it has the limitation mdf file of your database to be smaller than 5GB**.<br>
+**This library is free to use it anywhere, but it has the limitation mdf file of your database to be smaller than 5GB**.<br>
 
-For bigger database files please [contact me](mailto:dim1.tsimpoukelis@gmail.com)  
+For bigger database files, it can work also without any problem, with million of records, but please [contact me](mailto:dim1.tsimpoukelis@gmail.com)  
 
  
 
