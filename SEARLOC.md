@@ -13,10 +13,8 @@ EXEC dbo.searloc_install
 * [PROCEDURE **searloc.create_index**](#user-content-procedure-searloccreate_index)
 * [PROCEDURE **searloc.drop_all**](#user-content-procedure-searlocdrop_all)
 * [PROCEDURE **searloc.drop_index**](#user-content-procedure-searlocdrop_index)
-* [FUNCTION **searloc.get_mode**](#user-content-function-searlocget_mode)
 * [FUNCTION **searloc.match**](#user-content-function-searlocmatch)
 * [FUNCTION **searloc.match_selection**](#user-content-function-searlocmatch_selection)
-* [PROCEDURE **searloc.register**](#user-content-procedure-searlocregister)
 * [TABLE FUNCTION **searloc.search**](#user-content-table-function-searlocsearch)
 * [FUNCTION **searloc.suggest**](#user-content-function-searlocsuggest)
 
@@ -98,18 +96,6 @@ After you drop index, will automatically drop the indexes in source table relate
 
 
 
-
-
-# FUNCTION searloc.get_mode 
-`` SELECT searloc.get_mode() ``
-
-Returns **NVARCHAR(MAX)** the mode of this library (LIMITED MODE, UNLIMITED MODE, LOCKED MODE). 
-
-To set mode to UNLIMITED call 
-`` EXEC searloc.register @CompanyName, @Key ``
- 
-
-
 # FUNCTION searloc.match 
 `` SELECT searloc.match(@Pattern, @Text) ``
 
@@ -188,32 +174,7 @@ Examples
 <br> will return ``<b>Phantom</b> of the <b>Opera</b>`` 
 <br>(It will select all word 'Phantom' here because it cannot match exactly the pattern 'FANT')
 
- 
 
-
-
-
-# PROCEDURE searloc.register 
-`` EXEC searloc.register @CompanyName, @Key ``
-
-Registers your company details, so you can use this library for databases bigger than 5GB. 
-
-Parameters:
-- **@CompanyName NVARCHAR(MAX)** 
-
-    The name of you company
-    
-- **@Key NVARCHAR(MAX)** 
-
-    The key depending on companyName. To obtain this key, please [contact me](mailto:dim1.tsimpoukelis@gmail.com)
-    
-After executing this procedure you can check your mode with
-`` SELECT searloc.get_mode() ``
-
- 
- 
- 
- 
  
 # TABLE FUNCTION searloc.search
 `` SELECT * FROM searloc.search(@TableName, @SearchText, @Limit, @UserID)``
