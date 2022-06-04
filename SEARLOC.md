@@ -92,7 +92,7 @@ Parameters:
 
     Name of source table.
 
-After you drop index, will automatically drop the indexes in source table related to this.
+After you drop index, will automatically drop the triggers in source table related to this.
 
 
 
