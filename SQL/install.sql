@@ -43,7 +43,7 @@ WITH PERMISSION_SET = SAFE
  
 EXEC('CREATE PROCEDURE [searloc].[install] WITH EXECUTE AS CALLER AS EXTERNAL NAME searloc.clr.install')
  
-EXEC [searloc].[install] 
+EXEC('EXEC [searloc].[install]')
  
  
 END
