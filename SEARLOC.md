@@ -135,8 +135,8 @@ WHERE searloc.match(@P, ISNULL(LastName, '') + ' ' + ISNULL(firstName, '') ) >= 
 ORDER BY 3 DESC
 ```
 
-Of course if your table is big with many thousants, or millions records then you have to 
-``create_index`` for this table and use ``searloc.search`` for faster searchings.  
+Of course if your table is big with many thousants, or millions records then you have to call
+``searloc.create_index`` for this table and use ``searloc.search`` for faster searchings.  
  
  
  
