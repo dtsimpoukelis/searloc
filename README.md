@@ -95,7 +95,7 @@ There is a folder [SQL](/SQL) which contains some sql commands to run for instal
 
 * Load and run file [1. create demo table.sql](/SQL/1.%20create%20demo%20table.sql) 
 
-	> This will create a demo table with all internation codes of diseases (ICD10). Its only for demo use.
+	> This will create a demo table with all international codes of diseases (ICD10). Its only for demo use.
 	
 * Load and run file [2. search with function.sql](/SQL/2.%20search%20with%20function.sql)	
 
