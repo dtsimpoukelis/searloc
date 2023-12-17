@@ -153,7 +153,7 @@ Library includes a very big dataset with all phonetic matchings, and keyboard ma
 
 **This library is free to use it anywhere, but it has the limitation mdf file of your database to be smaller than 5GB**.<br>
 
-For bigger database files, it can work also without any problem, with million of records, but please [contact me](mailto:dim1.tsimpoukelis@gmail.com)  
+For bigger database files, it can work also without any problem, with million of records, but please [contact me](mailto:dim1.tsimpoukelis@gmail.com) to dim1.tsimpoukelis@gmail.com  
 
  
 
